@@ -1,0 +1,63 @@
+@media screen and (max-width: 768px) {
+    .side-bar {
+        height: 0;
+		padding: 0;
+		width: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+    }
+	
+	.tooltiptext {
+        display: none;
+    }
+	
+	.page-main {
+        margin: 0;
+    }
+
+    .homepage-button-container .site-button {
+        width: 80%;
+        margin: 0 0 20px 0;
+    }
+	
+	.about-me-left {
+        width: 100%;
+    }
+    
+    .about-me-right {
+        width: 100%;
+    }
+	
+	.next-page .site-button {
+        width: 200px;
+    }
+	
+    .skill-card-container,
+    .front,
+    .back,
+    .skills-cards-holder .site-button {
+        width: 140px;
+    }
+    
+    .skill-card-container img {
+        height: 140px;
+    }
+    
+    .project-name {
+        font-size: 1em;
+    }
+    
+    .project-description .site-button {
+        width: 150px;
+        font-size: 1em;
+    }
+    
+    .contact-wrap img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .contact-link {
+        font-size: 1.2em;
+    }
+	
+}
