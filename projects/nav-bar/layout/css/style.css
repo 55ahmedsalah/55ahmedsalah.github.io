@@ -1,0 +1,74 @@
+body {
+    background-attachment: fixed;
+    background-image: url("https://i.pinimg.com/originals/1f/55/70/1f55707e4bd3575a69d593a68baae658.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-bar {
+    overflow: hidden;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button */
+
+.dropbtn {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: white;
+    cursor: default;
+    font-size: 15px;
+    margin-right: 3px;
+    outline: none;
+    padding: 10px 50px;
+    text-align: center;
+    width: 150px;
+}
+
+/* Style the dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    padding: 0 0;
+    position: absolute;
+    width: 150px;
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+
+.dropdown-content a {
+    color: white;
+    display: block;
+    padding: 12px 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Add a green on dropdown links on hover */
+
+.dropbtn:hover {
+    background: rgba(0, 100, 0, 0.8);
+}
+
+/* Add a green background to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background: rgba(0, 100, 0, 0.6);
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

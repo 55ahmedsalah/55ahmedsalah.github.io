@@ -1,0 +1,596 @@
+/**** Common ****/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', 'Lato', 'Noto Sans';
+    font-size: 17px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.breaker {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+}
+
+.site-button {
+    border-radius: 3px;
+    border: none;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: #80bd01;
+    box-shadow: 3px 3px 0px 0 rgb(71, 103, 4);
+    text-decoration: none;
+    color: white;
+}
+
+.green-button:hover {
+    background-color: #619000;
+}
+
+.blue-button {
+    background-color: #00b3e3;
+    box-shadow: 3px 3px 0px 0 rgb(0, 98, 124);
+    text-decoration: none;
+    color: white;
+}
+
+.blue-button:hover {
+    background-color: rgb(0, 146, 186);
+}
+
+/********************************************************************************/
+
+/* Header Start */
+
+.header {
+    background-image: url("../images/headerBg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.navigation-bar {
+    overflow: hidden;
+    padding: 10px 0 0 0;
+    position: relative;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    background-color: white;
+}
+
+.navigation-bar-content {
+    width: 100%;
+}
+
+.navigation-bar ul {
+    list-style: none;
+    float: right;
+}
+
+.navigation-bar ul li {
+    float: left;
+    margin-left: 30px;
+}
+
+.navigation-bar ul li a {
+    text-decoration: none;
+    color: #58585a;
+}
+
+.navigation-bar ul li a:hover {
+    color: #00b3e3;
+}
+
+.logo {
+    float: left;
+}
+
+/********************************  Slider  **************************************/
+
+.slider {
+    overflow: hidden;
+    padding: 50px 0 0 0;
+}
+
+.slider-icons-conatainer {
+    text-align: center;
+}
+
+.slider-icons-list {
+    list-style: none;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 0;
+    width: 150px;
+}
+
+.slider-icons-list li {
+    float: left;
+    margin-left: 10px;
+}
+
+.slider-header {
+    padding: 0;
+    margin: 0;
+    font-size: 82px;
+    color: rgb(27, 27, 27);
+    line-height: 0.976;
+}
+
+.slider-paragraph {
+    font-size: 1.2em;
+    color: rgb(27, 27, 27);
+}
+
+.slider-page-one {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.slider-text {
+    margin-top: 100px;
+    width: 65%;
+}
+
+.slider-page-one-sign-up {
+    width: 35%;
+    margin: 30px 0 0 0;
+}
+
+.slider-page-one-sign-up input[type="submit"] {
+    font-family: "Bebas Neue";
+}
+
+.slider-page-one-sign-up h4 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Noto Sans";
+    color: rgb(250, 253, 253);
+    line-height: 1.125;
+    font-weight: normal;
+}
+
+.sign-up-form label {
+    font-family: "Noto Sans";
+    font-size: 0.6em;
+    font-weight: normal;
+}
+
+.sign-up-form input[type=text] {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0px 1px 0px 0px rgba(65, 108, 170, 0.004);
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    font-size: 1em;
+}
+
+.sign-up-submit {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.sign-up-content {
+    background-color: rgb(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 0px 0px rgba(3, 3, 3, 0.35);
+    padding: 40px 50px;
+    color: white;
+}
+
+.mission {
+    text-align: center;
+    background-color: #80bd01;
+    font-size: 2em;
+    color: white;
+    overflow: hidden;
+    font-weight: lighter;
+    padding: 20px 0;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+/* Header End */
+
+/* About Us Start */
+
+.about-us {
+    overflow: hidden;
+    cursor: default;
+}
+
+.about-us-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+.about-us-text {
+    width: 60%;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-header {
+    color: #00b3e3;
+}
+
+.about-us-paragraph {
+    font-weight: normal;
+    font-family: "Noto Sans";
+    font-size: 0.75em;
+}
+
+.know-more {
+    margin-left: auto;
+    margin-bottom: 20px;
+    font-family: "Noto Sans";
+}
+
+.know-more .site-button {
+    font-weight: normal;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+    padding-left: 35px;
+    padding-right: 50px;
+    border-radius: 0;
+}
+
+.know-more .site-button span {
+    position: relative;
+    margin: 0;
+    left: 25px;
+}
+
+.know-more a {
+    text-decoration: none;
+}
+
+.about-us-image-container {
+    width: 40%;
+}
+
+.about-us-image {
+    background-image: url("../images/aboutUs.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 99%;
+    height: 350px;
+    margin-bottom: 10px;
+    box-shadow: 3px 5px 0px 0 #049ac2;
+    overflow: hidden;
+}
+
+/* About Us End */
+
+/* Our Services Start */
+
+.our-services {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url("../images/ourServicesBg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.our-services-header {
+    text-align: center;
+}
+
+.our-services-header h1 {
+    color: #80bd01;
+}
+
+.our-services-header p {
+    color: #ffffff;
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+.services-table {
+    margin: 0 0 50px 0;
+    cursor: default;
+}
+
+.services-row {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.service-type {
+    width: 25%;
+    margin: 40px 0 40px 0;
+    text-align: center;
+}
+
+
+.service-type-header {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 1.3em;
+}
+
+.service-type-paragraph {
+    color: #cccccc;
+    font-family: "Noto Sans";
+    font-size: 0.7em;
+    padding: 0 10px;
+}
+
+.service-icon {}
+
+.our-services-explore-all {
+    margin-bottom: 100px;
+}
+
+/* Our Services End */
+
+/* Experts Start */
+
+.experts {
+    margin: 30px 0 30px 0;
+}
+
+.experts-header {
+    text-align: center;
+    color: #00b3e3;
+}
+
+.experts .breaker {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.scattered-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.experts-image {
+    box-shadow: 3px 5px 0px 0 #049ac2;
+    width: 60%;
+    height: 350px;
+    margin: 10px 0;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.experts-image-one {
+    background-image: url("../images/expertsImageOne.png");
+}
+
+.experts-image-two {
+    background-image: url("../images/expertsImageTwo.png");
+    margin-top: -100px;
+}
+
+.experts-text {
+    margin-left: auto;
+    width: 60%;
+    height: 350px;
+    padding: 50px;
+    background-color: #80bd01;
+    z-index: 3;
+    position: relative;
+    margin-top: -150px;
+    color: white;
+}
+
+.experts-text-header {
+    font-size: 2em;
+}
+
+.experts-text-paragraph {
+    font-family: 'Noto Sans', 'Bebas Neue', 'Lato';
+    font-size: 0.9em;
+    height: 50%;
+}
+
+.experts-text .site-button {
+    border-radius: 0;
+    margin: 0 0 100px 0;
+}
+
+/* Experts End */
+
+/* Partners Start */
+
+.partners {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.partners-header {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.partners-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.partners-slider-arrow {
+    font-size: 3em;
+    cursor: pointer;
+    margin: auto auto auto auto;
+}
+
+.partners-slider-left-arrow {
+    margin-left: 20px;
+}
+
+.partners-slider-right-arrow {
+    margin-right: 20px;
+}
+
+.partners-slider-logos-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.partners-slider-logo {
+    margin-right: 20px;
+    width: 25%;
+}
+
+.partners-slider-logo:last-of-type {
+    margin-right: 0;
+}
+
+/* Partners End */
+
+/* Footer Start */
+
+.footer {
+    background-color: #15292e;
+    padding: 30px 0 30px 0;
+    color: white;
+    font-family: "Noto Sans";
+    font-size: 0.75em;
+}
+
+.footer h2 {
+    font-family: 'Bebas Neue', 'Lato', 'Noto Sans';
+    color: #00b3e3;
+    font-size: 2.4em;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    list-style-image: url("../images/footerBulletPoint.png");
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-company-description {
+    width: 25%;
+    position: relative;
+}
+
+.footer-logo {}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    color: #a7abac;
+}
+
+.footer-information {
+    width: 25%;
+    padding-left: 40px;
+}
+
+.footer-services {
+    width: 25%;
+    padding-left: 30px;
+}
+
+.footer-contact-information {
+    width: 25%;
+    padding-top: 40px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.footer-contact {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer .footer-contact-text p {
+    margin: 0;
+}
+
+.footer-contact-icon {
+    margin-right: 5px;
+    width: 15px
+}
+
+.footer-contact-text {
+    margin-bottom: 10px;
+}
+
+.footer-social-media-container {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-social-media-container img {
+    margin-left: 5px;
+}
+
+/* Footer End */
