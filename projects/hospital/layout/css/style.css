@@ -1,0 +1,279 @@
+:root {
+    --footer: #545454;
+    --nav-color: #54d1c6;
+    --section-background: #ecf7f6;
+    --services-text: #a8a8a8;
+    --site-blue: #13bfb1;
+}
+
+body,
+html {
+    cursor: default;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    color: black;
+    font-size: 14px;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header,
+nav,
+footer,
+section,
+article,
+div {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/***************************************/
+
+.change-language {
+    color: #fff;
+    text-decoration: none;
+}
+
+.change-language:hover {
+    color: #fff;
+    text-decoration: underline border-bottom: 3px solid var(--site-blue);;
+}
+
+/***/
+
+.header {
+    background-attachment: fixed;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header .navigation {
+    background-color: #fff;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+}
+
+.header .nav-link {
+    border-bottom: 4px solid transparent;
+    color: var(--site-blue) !important;
+    margin: 0 9.4px 0 0;
+    font-size: 1.2em;
+}
+
+.header .nav-link:last-of-type {
+    margin: 0;
+}
+
+.header .nav-link:hover {
+    border-bottom: 4px solid var(--nav-color);
+    color: var(--nav-color) !important;
+}
+
+.header .navbar {
+    width: 100% !important;
+}
+
+.header .nav-header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header .col:last-of-type {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header .bg {
+    align-self: flex-end;
+}
+
+/**************************************/
+
+.site-section {
+    display: block;
+    padding: 40px 0 40px 0;
+    transition: all 0.5s;
+}
+
+.appointment {
+    background-color: var(--section-background);
+}
+
+.section-image {
+    overflow: hidden;
+}
+
+.section-header {
+    font-size: 1.7em;
+    margin: 10px 0;
+}
+
+.section-inputs {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .08);
+    padding: 25px;
+}
+
+.section-inputs label {
+    font-size: 1.1em;
+}
+
+.section-inputs .btn {
+    font-size: 1.1em;
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.section-inputs .btn:hover,
+.section-inputs .btn:active,
+.section-inputs .btn:focus {
+    background-color: #049c8f;
+}
+
+.section-inputs .btn {
+    background-color: var(--nav-color);
+    border-color: transparent;
+    color: #fff;
+    margin: 20px 0 0 0;
+}
+
+.section-inputs input[type="datetime-local"] {
+    background-color: var(--nav-color);
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    float: left;
+    padding: 7px;
+    width: 100%;
+}
+
+.section-inputs .custom-select {
+    margin: 0 0 10px 0;
+}
+
+.section-inputs option:hover {
+    outline-color: var(--site-blue) !important;
+    background-color: var(--site-blue) !important;
+}
+
+.section-inputs option:active {
+    outline-color: var(--site-blue) !important;
+    background-color: var(--site-blue) !important;
+}
+
+/**************************************/
+
+.services .col-md-12 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .fas {
+    color: var(--site-blue);
+    font-size: 3.5em;
+}
+
+.services .inline {
+    display: inline;
+    padding: 20px;
+}
+
+.services .service {
+    padding: 20px;
+}
+
+.services .service-text {
+    color: var(--services-text);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.services .services-ctd {
+    padding: 60px;
+}
+
+.services .service-head {
+    margin: 20px 0 0 0;
+}
+
+/***************************************/
+
+.facts {
+    background-color: var(--section-background);
+}
+
+.facts .container {
+    padding-bottom: 40px;
+}
+
+.facts .facts-head {
+    padding: 30px;
+}
+
+.facts .pic {
+    color: var(--site-blue);
+    font-size: 4em;
+    margin: 10px 0 0 0;
+}
+
+.facts .facts-ctd {
+    padding: 30px 0 0 0;
+}
+
+.facts h5,
+.facts p {
+    margin: 10px 0;
+}
+
+/**************************************/
+
+.consult .consult-inputs {
+    background-color: var(--section-background);
+}
+
+.consult .section-inputs input[type="text"] {
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
+
+.consult .section-inputs textarea {
+    font-size: 1em;
+}
+
+/**************************************/
+
+.footer {
+    background-color: var(--footer);
+    color: #fff;
+    padding: 30px 0;
+}
+
+/**************************************/

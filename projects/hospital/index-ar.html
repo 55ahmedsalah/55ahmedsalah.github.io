@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]> 
+<html class="ie ie7">
+   <![endif]-->
+<!--[if IE 8 ]> 
+   <html class="ie ie8">
+      <![endif]-->
+<!--[if IE 9 ]> 
+      <html class="ie ie9">
+         <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="ar">
+<!--<![endif]-->
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="language" content="arabic" />
+    <meta name="distribution" content="global" />
+    <meta name="author" content="Rwabett" />
+    <meta name="publisher" content="Rwabett" />
+    <meta name="copyright" content="2018 Rwabett" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="موقع مستشفى عام يسمح لك بحجز موعد مع أفضل الأطباء." />
+    <meta name="keywords" content="مستشفى, عيادة, صيدلية, دكتور, أخصائي, أسنان" />
+    <!-- An icon with dimensions 32x32 -->
+    <link rel="shortcut icon" href="layout/images/logo/logo-32.png" />
+    <!-- An image with dimensions 114x114 -->
+    <link rel="apple-touch-icon" href="layout/images/logo/logo-114.png" />
+    <title>Hospital</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="layout/css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="layout/css/style.css">
+</head>
+
+<body style="direction: rtl !important; font-family: 'Amiri', serif !important; font-size: 17px; text-align: right !important;">
+    <div class="header">
+        <div class="container">
+            <span style="color:white; font-size:20px; float:right; "> للاستفسارات </span>
+            &nbsp &nbsp
+            <span style="color:#13bfb1; font-size: 12px; float: right; margin-right:10px; margin-top:6px; ">٤٨٢ ٧٦٦ ٣٨٣ ٦١+</span>
+            <a href="index.html" class="change-language">En</a>
+            <div class="row navigation">
+                <div class="navbar navbar-expand-lg navbar-light">
+                    <a href="#" class="pull-left col-4"><img src="layout/images/logo-ar.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-8" id="navbarSupportedContent">
+                        <nav class="nav navbar-nav mr-auto">
+                            <a class="nav-item nav-link Departments" href="#">الاقسام</a>
+                            <a class="nav-item nav-link Medical" href="#">استشارات طبيه</a>
+                            <a class="nav-item nav-link services" href="#">الخدمات</a>
+                            <a class="nav-item nav-link clinics" href="#">العيادات</a>
+                            <a class="nav-item nav-link contact" href="#">للاتصال بنا</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col nav-header">
+                    <h1 style="font-family: 'Amiri', serif !important;">
+                        <span style="color: var(--site-blue); font-size: 1em; display: inline;">من واجبنا</span>
+                        <span style="color: #000; font-size: 0.6em;">التركيز علي صحة المجتمع بأكمله وليس علي صحة زوارنا فقط</span>
+                    </h1>
+                </div>
+                <div class="col">
+                    <div class="bg">
+                        <img src="layout/images/hero.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="appointment site-section" id="appointment">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="section-image">
+                        <img src="layout/images/appointment.jpg" alt="Appointments">
+                    </div>
+                    <div class="section-description">
+                        <h3 class="section-header" style="font-family: 'Amiri', serif !important;">إحجز موعدك الآن</h3>
+                        <p class="section-paragraph">لا تتردد في الحجز الآن مع أمهر و أفضل الأطباء ليس على المستوى المحلي فقط لكن العالمي أيضا.</p>
+                    </div>
+                </div>
+                <div class="section-inputs col">
+                    <form action="#">
+                        <label for="section">قسم</label>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>إختر القسم...</option>
+                            <option value="1">جراحة</option>
+                            <option value="2">أسنان</option>
+                            <option value="3">عظام</option>
+                        </select>
+                        <label for="gender">جنس</label>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>إختر الجنس...</option>
+                            <option value="1">ذكر</option>
+                            <option value="2">مؤنث</option>
+                            <option value="3">آخر</option>
+                        </select>
+                        <label for="room">غرفة</label>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>إختر نوع الغرفة...</option>
+                            <option value="1">غرفة خاصة</option>
+                            <option value="2">غرفة عامة</option>
+                            <option value="3">غرفة جراحة</option>
+                        </select>
+                        <label for="time">الوقت و التاريخ</label>
+                        <br>
+                        <input type="datetime-local" id="date-time" name="date-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00" />
+                        <input type="submit" value="أرسل" class="btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container-fluid">
+            <div class="service row text-center">
+                <div class="col-md-12">
+                    <i class="fas fa-caret-left"></i>
+                    <h1 class="inline" style="font-family: 'Amiri', serif !important;">أفضل معايير التأمين الصحى</h1>
+                    <i class="fas fa-caret-right"></i>
+                </div>
+            </div>
+            <div class="service-text row text-center">
+                <div class="col-md-12">
+                    <p>نقدم لك أفضل خدمة تأمين صحي</p>
+                </div>
+            </div>
+        </div>
+        <div class="services-ctd container-fluid">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <i class="text-center pic fas fa-capsules"></i>
+                    <div class="service-head">
+                        <h5 style="font-family: 'Amiri', serif !important;">أدوية</h5>
+                    </div>
+                    <div class="service">
+                        <p>نقدم أفضل الأدوية المتوفرة على مستوى العالم</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <i class="text-center pic fas fa-heartbeat"></i>
+                    <div class="service-head">
+                        <h5 style="font-family: 'Amiri', serif !important;">مشاكل القلب</h5>
+                    </div>
+                    <div class="service">
+                        <p>نقدم مجموعة من عمليات القلب التي تتم عن طريق أطباء مؤهلين على أعلى مستوى</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <i class="text-center pic fas fa-tooth"></i>
+                    <div class="service-head">
+                        <h5 style="font-family: 'Amiri', serif !important;">تسوس الأسنان</h5>
+
+                    </div>
+                    <div class="service">
+                        <p>نعالج تسوس الاسنان بأحدث الأجهزة التي توصل اليها الطب الحديث</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <i class="text-center pic fas fa-medkit"></i>
+                    <div class="service-head">
+                        <h5 style="font-family: 'Amiri', serif !important;">الإسعافات الأولية</h5>
+                    </div>
+                    <div class="service">
+                        <p>نقدم معدات الاسعافات الأولية و مركز تدريب عن كيفية إستخدامها</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <i class="icon-left-dir"></i> -->
+        </div>
+    </div>
+    <div class="facts">
+        <div class="facts-head container-fluid">
+            <div class="row text-center service-text">
+                <div class="col-md-12">
+                    <p>حقائق سريعة عن المستشفى</p>
+                </div>
+            </div>
+            <div class="row text-center ">
+                <div class="col-md-12">
+                    <h1 style="font-family: 'Amiri', serif !important;">ماذا نقدم لصحتك</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-user-md fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">أطباء مؤهلين</h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">أطباؤنا جميعا على أعلى مستوى من الكفاءة و المهنية</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-hourglass-half fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">زيارات سريعة</h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">نتيح خدمة الزيارة السريعة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-credit-card fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">الدفع ببطاقة الائتمان </h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">يمكنك الدفع عن طريق بطاقة الائتمان</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="facts-ctd row text-center">
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-file-alt fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">تاريخ المريض </h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">نحن نقوم بتسجيل تاريخ المريض السابق</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-feather-alt fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">دواء طبيعي</h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">جميع ادويتنا مصنوعة من مكونات طبيعية </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row text-center">
+                        <div class="col-md-2">
+                            <i class="pic fas fa-calendar fa-fw"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="col-md-12">
+                                <h5 style="font-family: 'Amiri', serif !important;">عقود قصيرة الأجل</h5>
+                            </div>
+                            <div class="col-md-12">
+                                <p class="service-text">نحن نقدم خدمة العقود قصيرة الأجل</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consult site-section" id="consult">
+        <div class="container">
+            <div class="row">
+                <div class="section-inputs consult-inputs col">
+                    <form action="#">
+                        <label for="name">الإسم</label>
+                        <input type="text" class="form-control" id="consult-name" aria-describedby="consultName" placeholder="أدخل اسمك" required>
+                        <label for="gender">الجنس</label>
+                        <select class="custom-select" id="inputGroupSelect01" required>
+                            <option selected>إختر الجنس...</option>
+                            <option value="1">ذكر</option>
+                            <option value="2">أُنثى</option>
+                            <option value="3">آخر</option>
+                        </select>
+                        <label for="room">الإستشارة</label>
+                        <textarea class="form-control" id="textarea1" rows="5" placeholder="ما الذي تريد الإستشارة حوله..." required></textarea>
+                        <input type="submit" value="أرسل" class="btn">
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="section-image">
+                        <img src="layout/images/consult.JPG" alt="Appointments">
+                    </div>
+                    <div class="section-description">
+                        <h3 class="section-header" style="font-family: 'Amiri', serif !important;">إستشر متخصصاً</h3>
+                        <p class="section-paragraph">ألديك استشارة ضرورية و تريد ردا سريعا حازما على جميع أسئلتك؟ بادر بإرسال إستشارتك الآن ليتم الرد عليك خلال دقائق معدودة من فريق كامل من الأطباء المتخصصين</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="column one"><a id="back_to_top" class="button button_js" href=""><i class="icon-up-open-big"></i></a>
+                <div class="copyright">© جميع الحقوق محفوظة لشركة بي ميديك ٢٠١٨</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="layout/js/script.js"></script>
+    <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
